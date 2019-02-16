@@ -1,92 +1,28 @@
-# SIGCOWW Template
-同人誌のテンプレート。
-サンプル文章として、deskとRe:VIEW文法の紹介が入っている。
+# L0-A（仮）
+技術書典6で発行(?:した|予定の)同人誌用リポジトリです。
 
-
-
-## 使い方
-deskのDockerコンテナが実行できる環境が必要になる。
-
-### Linux
+## 執筆にあたって
+GitHub Flowに従って執筆する。
 ```
+# 執筆用ブランチの準備
+$ git clone git@github.com:SIGCOWW/L0-A.git
+$ git checkout -b (適当に決めた名前)
+
+# 記事を書く
 $ ./make.sh install kakuyo
 $ vim src/articles/kakuyo/kakuyo.re
 $ cp ~/dokokano/dir/hoge.png src/article/kakuyo/images/
-$ ./make.sh build --help
-$ ./make.sh build # src/working_temporary_directory/ にPDFができる
+
+# 必要に応じて commit/push
 $ git add -A
-$ git commit -m "TEST" # or git commit -m "[ci skip] TEST"
-$ git push origin master
+$ git commit -m "hogehoge" # or git commit -m "[ci skip] TEST"
+$ git push origin (さっき決めた名前)
+
+# pullreq / [WIP]pullreq / draft pullreq を出す
+# 全部終わったらSlackで伝えて他の人にマージしてもらう
 ```
-`build`の引数は、desk内の`build.rb`に渡される。
 
-### その他
-その他のOSは未検証。
-ただ、ビルドは下記のような処理が中心なので、手動で叩けば動きそうではある。
-```
-$ docker pull (.circleci/config.yml の images)
-$ docker run -v "(srcのディレクトリ):/work" (いまpullしたイメージ) /bin/ash -c (.circleci/config.yml の run)
-```
-なお、WindowsのDocker Toolboxなら `(srcのディレクトリ)` を `C:\Users` 配下にすると楽らしい。
-
-
-
-## ディレクトリ構成
-```
-src/
-├─ articles/ ..... 原稿ディレクトリ
-│   └─ hoge/
-│        ├─ hoge.rb ... 原稿本体
-│        └─ images/ ... 画像ディレクトリ
-├─ cover.png ..... 表紙画像
-├─ back.png ...... 背表紙画像
-│
-└─ working_temporary_directory/ ..... 成果物ディレクトリ(Git管理外)
-     ├─ origin.pdf ..... Re:VIEWによる出力
-     ├─ honbun.pdf ..... 入稿用PDF
-     ├─ publish-row.pdf .... 電子書籍PDF（Re:VIEW出力そのまま）
-     ├─ publish-ebook.pdf .... 電子書籍PDF（publish-raw.pdfをghostscriptで最適化…のはずだがテキスト選択に難がある）
-     └─ publish.epub ... 電子書籍EPUB
-```
-これを作るのは`tree`コマンドが便利。
-
-
-
-## `config.yml` について
-本来のRe:VIEWとは意味を変えている、また独自に追加した項目がある。
-例えば、
-
-* `oth` ... Webサイトのアドレス
-* `edt` ... 連絡先メールアドレス
-* `feedback` ... 連絡フォーム(感想)
-* `msg` ... なんかメッセージ
-
-* `container_version` ... deskのバージョン
-* `layout_hash` ... layout.tex.erb のMD5ハッシュ
-* `sty_hash` ... sigcoww.sty のMD5ハッシュ
-* `latextitle` ... 扉ページとして挿入するLaTeXコマンド
-* `download` ... ダウンロード用URL。`%s`には乱数が入る。
-
-がある。いずれも省略可能。
-
-
-
-## 注意
-### こんなファイル・ディレクトリは作らない
-* working_temporary_directory/
-* .temporary.diff
-* 移動・削除される可能性がある
-
-### 画像
-* 入稿版は白黒に変換される
-* ラスタ画像の解像度は 350ppi 以上を推奨
-  * B5判いっぱいに貼り付ける場合は「2508px x 3541px」以上
-  * 本文領域いっぱいに貼り付ける場合は、「1600px x 2977px」程度
-
-### 文字コードはUTF-8
-* GitHubで管理するならそうなっているはずだが一応
-
-
+Re:VIEW文法や注意については、[desk/template](https://github.com/SIGCOWW/desk/tree/master/template) に従う。
 
 ## ライセンス
 本ディレクトリ以下は、[Beerwareライセンス](https://en.wikipedia.org/wiki/Beerware)のもとで提供されます。
