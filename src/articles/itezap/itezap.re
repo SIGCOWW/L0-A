@@ -125,9 +125,9 @@ y = \beta_{1}x + \beta_{0}
 線形単回帰式のプロットを@<img>{MilliShiny_age_hb_model_pred}に、非線形単回帰式のプロットを@<img>{MilliShiny_age_hb_polymodel_pred}に示します。
 図中の三角はテストデータを表し、@<m>{R^{2}}はテストデータの説明・予測の精度を示しています。
 
-//image[MilliShiny_age_hb_model_pred][線形単回帰式プロット]
+//imagew[MilliShiny_age_hb_model_pred][線形単回帰式プロット]
 
-//image[MilliShiny_age_hb_polymodel_pred][非線形単回帰式プロット]
+//imagew[MilliShiny_age_hb_polymodel_pred][非線形単回帰式プロット]
 
 …線形・非線形ともによい精度とは言えませんね。
 年齢と身長の回帰式においては、非線形でも決定係数が0.16とかなり低くなりました。
@@ -183,6 +183,9 @@ y = \beta_{1}x + \beta_{0}
 
 構築した単回帰モデルにプロットしてみましょう。
 単回帰モデルは、精度の高かった非線形の方を使用します。
+単回帰モデルを@<img>{new_dere_age_hb}に示し、そのプロット上に彼女達のイラストを掲載します。
+
+//imagew[new_dere_age_hb][単回帰モデルと彼女達の位置関係]
 
 === クラスタリングによる年少組の分類
 
