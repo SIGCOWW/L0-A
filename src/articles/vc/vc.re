@@ -1,4 +1,4 @@
-= 一般男性音声コーパス(OJaMa)を用いた深層学習に基づく統計的声質変換入門
+= 一般男性音声コーパス (OJaMa) を用いた深層学習に基づく統計的声質変換入門
 @<author>{バーチャル研究者eｒ, Sython;twitter:SythonUK}
 //profile{
 有名人と結婚できる一般男性になりたい人生でした。
@@ -54,8 +54,8 @@ VCモデルを構築するために、変換元・変換先話者の音声を収
 === 音声特徴量の分析
 人間の音声は、声帯振動によって生成された音源が、口、鼻、喉といった声道のフィルタを通ることによって作り出されています（@<img>{speech_process}）。
 本稿では、音声特徴量の分析に、森勢先生によって開発されたWORLD@<fn>{world}（のPythonラッパーであるpyworld@<fn>{pyworld}）を利用し、
-声帯振動の特性を基本周波数(F0)と非周期性指標(AP: APeriodicity)、
-声道フィルタの特性をスペクトル包絡の特徴量（MCEP: Mel-CEPstral coefficients）として抽出します@<fn>{features}。
+声帯振動の特性を基本周波数 (F0) と非周期性指標 (AP: APeriodicity) 、
+声道フィルタの特性をスペクトル包絡の特徴量 (MCEP: Mel-CEPstral coefficients) として抽出します@<fn>{features}。
 WORLDスペクトル包絡からMCEPへの変換には、音声信号処理ツールキットSPTK@<fn>{sptk}（のPythonラッパーであるpysptk@<fn>{pysptk}）を利用します。
 @<list>{analysis}に音声特徴量抽出のPythonコードを示します。
 //image[speech_process][音声の生成過程：ソース・フィルタモデル（東京大学 信号処理特論第7回講義資料より引用）][scale=0.8]
@@ -91,16 +91,16 @@ mcep = pysptk.sp2mc(sp, order=mcep_order, alpha=alpha)
 //footnote[source_features][F0は変換元・変換先話者の平均と分散を用いて線形変換されます。APは、そもそも変換されないことが多いです。]
 
 一般に、パラレル音声コーパスを用いたとしても、変換話者対のMCEPの系列長は異なります。
-そこで、VCモデル学習の前に、変換話者対のMCEPの系列長をDynamic Time Warping (DTW)によって揃えます（@<img>{dtw}）。
+そこで、VCモデル学習の前に、変換話者対のMCEPの系列長をDynamic Time Warping (DTW) によって揃えます（@<img>{dtw}）。
 以降、DTWによって系列長が揃えられた変換元話者のMCEPを@<m>{\bm{x\}}、
 変換先話者のMCEPを@<m>{\bm{y\}}と表記します。
 また、DTW後の系列長を@<m>{T}とします。
 //image[dtw][DTWの概念図。変換元・変換先音声の音素境界は既知とします。][scale=0.5]
 
-本稿では、VCモデルとしてDeep Neural Network (DNN)を用います。
+本稿では、VCモデルとしてDeep Neural Network (DNN) を用います。
 VCモデル学習の目的は、@<m>{\bm{x\}}から@<m>{\bm{y\}}を予測するDNNのモデルパラメータ（結合重みとバイアス）を推定することです。
 これは変換先MCEP @<m>{\bm{y\}}と生成MCEP @<m>{\bm{\hat y\}}から計算される損失関数を最小化することに対応します。
-最も単純な損失関数は、@<m>{\bm{y\}}と@<m>{\bm{\hat y\}}の間の二乗誤差(MSE: Mean Squared Error)です。
+最も単純な損失関数は、@<m>{\bm{y\}}と@<m>{\bm{\hat y\}}の間の二乗誤差 (MSE: Mean Squared Error) です。
 //texequation{
 L_{\rm MSE}(\bm{y}, \bm{\hat y}) = \frac{1}{T}(\bm{\hat y} - \bm{y})^\top (\bm{\hat y} - \bm{y})
 //}
@@ -119,7 +119,7 @@ MSE最小化基準によるVCモデル学習の概念図を@<img>{dnnvc}に示�
 
 ==== WORLDボコーダによる波形生成
 実際に変換された音声特徴量を用いて、WORLDボコーダにより音声波形を生成します（@<img>{fcvc}）@<fn>{saito17sp}。
-声道の特徴量(MCEP)だけでなく音源の特徴量（F0やAP）も変換できますが、
+声道の特徴量 (MCEP) だけでなく音源の特徴量（F0やAP）も変換できますが、
 ボコーダによる分析・合成時に音声の品質が劣化します。
 //image[fcvc][特徴量変換とWORLDボコーダを用いた波形生成][scale=0.9]
 //footnote[saito17sp][@<href>{http://sython.org/papers/SP/saito201701sp.pdf} から引用]
@@ -228,7 +228,7 @@ Sさんには非常に酷なのですが、無響室に3時間ほど篭ってい
 文献@<fn>{Farner}によると、ささやき声には次の特徴があるそうです。
 //footnote[Farner][@<href>{http://articles.ircam.fr/textes/Farner09a/index.pdf}]
 
- * 声帯振動はほとんど観測されません。
+ * 声帯振動はほとんど観測さ.れません。
  * 低域において、スペクトル包絡の傾きが平坦（または逆）になります。
 
 ささやき声の声帯振動は、基本周波数の値をすべて0にすることで再現できます。
@@ -274,7 +274,7 @@ $ sox ssyk.wav ssyk_migi.wav remix 1v0.0 1v0.5
  * Converted (W): Hさんのささやき声っぽい音声
  * Converted (WR): Hさんのささやき声っぽいものが右から聞こえる音声
 
-Sourceは気持ち悪いので聞かなくてもいいですが、Converted (W)やConverted (WR)はささやかれてるっぽさが出せているのではないかと思います。
+Sourceは気持ち悪いので聞かなくてもいいですが、Converted (W)やConverted (WR) はささやかれてるっぽさが出せているのではないかと思います。
 //footnote[samples_ssyk][@<href>{http://sython.org/demo/sasayakiVC/demo.html}]
 //footnote[conv][基本周波数をスケーリングした波形を一度Vocoderで生成し、それに対して差分スペクトル法を適用しています。なので、品質が若干悪くなります。]
 
@@ -283,9 +283,9 @@ Sourceは気持ち悪いので聞かなくてもいいですが、Converted (W)�
 今後は、これを用いたVRコンテンツとかができればいいなあと思っています。
 誰か作ってください。
 
-== 一般男性音声コーパス(OJaMa)の紹介
+== 一般男性音声コーパス (OJaMa) の紹介
 VCモデルを学習させるための音声コーパスがないと、そもそも統計的VCは実現できません。
-本節では、これまでの記事で用いた音声コーパスを@<b>{「一般男性音声コーパス(OJaMa)」}@<fn>{OJaMa}と命名し、その内容について紹介します@<fn>{hsan_no_onsei}。
+本節では、これまでの記事で用いた音声コーパスを@<b>{「一般男性音声コーパス (OJaMa) 」}@<fn>{OJaMa}と命名し、その内容について紹介します@<fn>{hsan_no_onsei}。
 //footnote[OJaMa][“O”rdinary “Ja”panese “Ma”le speaker]
 //footnote[hsan_no_onsei][残念ながら、ささやき声VCで用いたHさんのパラレル音声コーパスは公開できません…]
 
@@ -293,7 +293,7 @@ VCモデルを学習させるための音声コーパスがないと、そもそ
 OJaMaは、日本声優統計学会のWebページで公開されている「声優統計コーパス」@<fn>{VAC}のパラレル音声コーパスとなっています。
 声優統計コーパスには、独自に作成された音素バランス文（100文）@<fn>{VAC_txt}を、3名の女性声優（土谷麻貴さん@<fn>{tsuchiya}、上村彩子さん@<fn>{uemura}、藤東知夏さん@<fn>{fujitou}さん）が様々なスタイル（通常、喜び、怒り）で発話したものが含まれています。
 同コーパスのパラレル音声コーパスとして、
-Japanese speech corpus of Saruwatari-lab., University of Tokyo (JSUT)@<fn>{JSUT}のサブセット“voiceactress100”と、
+Japanese speech corpus of Saruwatari-lab., University of Tokyo (JSUT)@<fn>{JSUT} のサブセット“voiceactress100”と、
 nico-opendata音声読み上げデータセット@<fn>{hiho}が存在します@<fn>{VAC_para}。
 筆者の所感ですが、非常に使いやすくで有益なオープンソースデータであるのは間違いないという反面、音素バランス文のテキスト読み上げの難易度が高く、素人が発話するのには向いていないかもしれません。
 同コーパスの中で、特に読み上げが難しそうと感じた3文を次に示します。
@@ -329,7 +329,7 @@ OJaMaは、20代の男性大学院生のSさんが、声優統計コーパスの
 “通常発話”と“裏声発話”は無響室で、“風邪声発話”は比較的静音な屋内環境下で収録しました。
 
 === ここまでのまとめ
-本節では、筆者がこれまでの実験で用いた音声コーパスである「一般男性音声コーパス(OJaMa)」の内容を紹介しました。
+本節では、筆者がこれまでの実験で用いた音声コーパスである「一般男性音声コーパス (OJaMa) 」の内容を紹介しました。
 本コーパスは @<href>{http://sython.org/Corpus/OJaMa} で公開されています。
 主に個人での研究・分析目的であれば無償で利用可能です@<fn>{shoyo}。
 再配布・公序良俗に反する利用などの行為はご遠慮ください。
@@ -407,7 +407,7 @@ VTuberブームの先駆けとなった代表的なVTuberの一人であるね�
 
 === 敵対的学習に基づくVCモデル学習（敵対的VC）の導入
 VCモデルのDNNアーキテクチャは、input-to-output highway networkを用いました。
-本節では、変換音声をさらに高品質化するために、近年提案されたGenerative Adversarial Network (GAN)@<fn>{gan}の枠組みに基づくVCモデルの学習（敵対的VC）@<fn>{ganvc}を導入します。
+本節では、変換音声をさらに高品質化するために、近年提案されたGenerative Adversarial Network (GAN)@<fn>{gan} の枠組みに基づくVCモデルの学習（敵対的VC）@<fn>{ganvc}を導入します。
 敵対的VCは、@<img>{ganvc}に示すように、変換された音声と人間の自然音声を識別する識別モデルと、
 VCモデルを交互に学習させる手法です。
 識別モデル@<fn>{d}は、次式で定義される識別損失を最小化するように学習されます。
@@ -517,8 +517,8 @@ F0の範囲はそれっぽく近づいており、F0の変換をしなくても�
 年度始めの忙しい時期に風邪をひくと色々とつらいことでしょう。
 一方で、年度始めの忙しい時期に風邪をひいたということにして、
 つらい現実@<fn>{tsurai}から逃避したいという気持ちもあるかもしれません。
-本節では、@<b>{(1)風邪をひいたかもしれないという人が、声だけで風邪かどうかを判定できるかどうか、}
-そして@<b>{(2)通常の状態で録音された音声を風邪声っぽく変換することが可能かどうか}の基礎的検討を行います。
+本節では、 @<b>{(1) 風邪をひいたかもしれないという人が、声だけで風邪かどうかを判定できるかどうか、}
+そして @<b>{(2) 通常の状態で録音された音声を風邪声っぽく変換することが可能かどうか}の基礎的検討を行います。
 //footnote[tsurai][迫る原稿締切、国際会議論文やジャーナル執筆、etc...]
 
 === 音声コーパス
@@ -641,7 +641,7 @@ L_{\rm D,1}(\bm{y}^{\rm ill}) = -\sum_{t} \log D(\bm{y}^{\rm ill}_{t}), \quad L_
 もう少しリッチな特徴量やDNNを使えば改善すると思います。
 //footnote[delta][MCEPの時間変化（1次差分）の情報を持った特徴量です。]
 //footnote[excuse][本当は特徴量の組み合わせとかも検討したり、support vector machineとかも使いたかったのですが、時間の都合上厳しかったのでダメでした。]
-//image[accuracy][風邪判定DNNの正解率][scale=0.8]
+//image[accuracy][風邪判定DNNの正解率（横軸の“Epoch”は学習の反復回数）][scale=0.8]
 
 === DNNに基づく風邪声VC
 DNNを用いて、通常音声の音声を風邪声っぽくする風邪声VC（@<img>{kaze_vc}）を実現します。
@@ -683,9 +683,7 @@ DNNはその入力特徴量を強く変換しようとしていることを意�
 //footnote[samples_kaze][@<href>{http://sython.org/demo/kazeVC/demo.html}]
 
 === 本節のまとめ
-本節では、
-(1)入力音声の話者が風邪をひいているかどうかを判定するDNNの学習と、
-(2)通常音声を風邪声っぽく変換する風邪声VC-DNNの学習を行いました。
+本節では、 (1) 入力音声の話者が風邪をひいているかどうかを判定するDNNの学習と、 (2) 通常音声を風邪声っぽく変換する風邪声VC-DNNの学習を行いました。
 結果として、判定・変換のどちらもそれなりに上手く動いてくれることを確認しました。
 今後の課題としては、以下が考えられます。
 
