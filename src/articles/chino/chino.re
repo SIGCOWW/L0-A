@@ -161,7 +161,7 @@
 ワイ「調べ終わったよ。結果からいえば『バリスタアイにはFWバージョンが複数あると推察する』『少なくとも手元のSP07というバージョンにおいては、暗号化されたメッセージを送らないとコーヒーをいれられない』『暗号化に必要な鍵はlightpairingを通じて取得する』っぽいよ。」
 チノ「大変そうですね。BLEで接続してコーヒーをいれるまでの流れはどうなっていますか？」
 ワイ「@<img>{ble-flow}に示すよ。@<table>{ble-button}に示すIDのボタンを仮想的に押すことでいれる想定だよ。」
-//imagew[ble-flow][lightpairingと操作の流れtodo文字おきく][scale=0.9]
+//imagew[ble-flow][lightpairingと操作の流れtodo文字おきく]
 //tabooular[ble-button][ボタンID（BLE版）]{
 ボタン       | ID
 ============>|====>

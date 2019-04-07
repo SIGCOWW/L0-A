@@ -14,7 +14,7 @@ seqdiag {
     Device -> Host [label="Encrypted Token", note="ワンタイム"];
 
     Host -> Device [label="Write 0x0030 [暗号文]"];
-    ... 過去にペアリングしている（暗号文が正しい）ならばここで完了 ...
+    === 過去にペアリングしている（暗号文が正しい）ならばここで完了 ===
 
     Host -> Device [label="Write 0x0030 0x57452053544152542050414952494E47", note="「WE START PAIRING」のバイト表現"];
     Host -> Device [label="Read 0x0030", note="ボタンが光るので押す"];
@@ -23,7 +23,7 @@ seqdiag {
     Host -> Device [label="Read 0x0030"];
     Device -> Host [label="Encryption Key"];
     Host -> Device [label="Write 0x0030 [暗号文]"];
-    ... lightpairing完了 ...
+    === lightpairing完了 ===
 
     Host -> Device [label="Write 0x002E [ボタンIDと乱数の暗号文]"];
 }
