@@ -1,0 +1,14 @@
+blockdiag{
+    node_width = 150;
+    span_width = 80;
+    default_fontsize = 18;
+
+    Client [shape=actor];
+    Main [label="メイン基板"];
+    LPC [label="LPC1114"];
+    ESP [label="ESP-WROOM-02"];
+
+    Client <-> ESP [label="HTCPCP"];
+    ESP <-> LPC [label="UART"];
+    LPC <-> Main [label="I2C"];
+}
