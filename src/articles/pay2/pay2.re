@@ -193,8 +193,8 @@ FCCに掲載されている内部の写真を見ると、SPC1ではSHR1および
 Square Standという専用スタンドと、それに同梱される専用のUSBハブを使えばUSBで接続できるため、幸せになれるかも知れません@<fn>{unhappy}。
 価格は32,980円とためらう値段ですが、米国では$199で売られています。
 それでためらいが減ったので買ってしまったところ、確かにSquare Readerが@<img>{square-usb}のようにUSBで接続され、幸せになれました@<fn>{inapp}。
-Square Standのハードウェアは各国で違いはないと思われますが、この「Square Stand（米国版）」+「Square Reader（国内版）」+「Squareアプリ（国内版）」という構成でうまくいって良かったです。
 //image[square-usb][Square ReaderがUSBで接続される様子]
+Square Standのハードウェアは各国で違いはないと思われますが、この「Square Stand（米国版）」+「Square Reader（国内版）」+「Squareアプリ（国内版）」という構成でうまくいって良かったです。
 //footnote[unhappy][これを使わなくても幸せになりたくて、「Lightning - USB 3カメラアダプタ」と「Square Reader 専用ドック」を経由して繋いでみたものの、給電が行われるだけでリンク確立はBluetoothのみでした。Square Standに同梱される専用USBハブに秘密がありそうです。]
 //footnote[inapp][Squareアプリ内では、本稿でいうところのSquare Readerが「Square Reader（Bluetooth 接続）」という表記になっているため、「Square Reader（Bluetooth 接続）がUSB接続されている」という旨のメッセージが出ることもあり、少し違和感があります…。]
 
