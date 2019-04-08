@@ -192,24 +192,25 @@ FCCに掲載されている内部の写真を見ると、SPC1ではSHR1および
 とはいえ、混雑した会場でBluetoothを使うのは非常に不安です。
 Square Standという専用スタンドと、それに同梱される専用のUSBハブを使えばUSBで接続できるため、幸せになれるかも知れません@<fn>{unhappy}。
 価格は32,980円とためらう値段ですが、米国では$199で売られています。
-それでためらいが減ったので買ってしまったところ、たしかにSquare Readerが@<img>{square-usb}のようにUSBで接続され、幸せになれました@<fn>{inapp}。
+それでためらいが減ったので買ってしまったところ、確かにSquare Readerが@<img>{square-usb}のようにUSBで接続され、幸せになれました@<fn>{inapp}。
+Square Standのハードウェアは各国で違いはないと思われますが、この「Square Stand（米国版）」+「Square Reader（国内版）」+「Squareアプリ（国内版）」という構成でうまくいって良かったです。
 //image[square-usb][Square ReaderがUSBで接続される様子]
-//footnote[unhappy][これを使わなくても幸せになりたくて、「Lightning - USB 3カメラアダプタ」と「Square Reader 専用ドック」を経由して繋いでみたものの、給電が行われるだけでリンク確立はBluetoothのみでした。Square Standに同梱されている「ACCESSORIES HUB」というUSBハブに秘密がありそうです。]
+//footnote[unhappy][これを使わなくても幸せになりたくて、「Lightning - USB 3カメラアダプタ」と「Square Reader 専用ドック」を経由して繋いでみたものの、給電が行われるだけでリンク確立はBluetoothのみでした。Square Standに同梱される専用USBハブに秘密がありそうです。]
 //footnote[inapp][Squareアプリ内では、本稿でいうところのSquare Readerが「Square Reader（Bluetooth 接続）」という表記になっているため、「Square Reader（Bluetooth 接続）がUSB接続されている」という旨のメッセージが出ることもあり、少し違和感があります…。]
 
-Square Standは各国で同じハードウェアを利用しているかと思いますが、うまくいって良かったです。
-なお、「Square Reader（米国版）」+「Squareアプリ（国内版）」にてBluetooth接続も試したところ、こちらも一応は@<img>{square-bluetooth}のように接続できました@<fn>{legal}。
-ただ、ファームウェアアップデートの通知が出たにも関わらず、一向にアップデートが開始される気配がなく少々不穏です。
+なお、米国内にて@<fn>{legal}「Square Reader（米国版）」と「Squareアプリ（国内版）」のBluetooth接続も試したところ、こちらも一応は@<img>{square-bluetooth}のように接続できました。
+ただ、ファームウェアアップデートの通知が出たにも関わらず、一向にアップデートが開始される気配がないなど、少々不穏です。
 決済も行っていない@<fn>{legal-merchant}ため、本当に正しく接続できているかは不明ですが、国内で接続することはまずないので問題ありません。
-//image[square-bluetooth][Square Reader（海外版）とSquareアプリ（国内版）を接続した様子][scale=0.4]
-//footnote[legal][Square Reader（米国版）には技適マークがありませんが、ここでは@<bou>{米国内で接続}しています。当サークルでは法令に違反する、または違反の疑いがある行為はしません。]
-//footnote[legal-merchant][加盟店規約により国外での決済は禁止されています。当サークルでは加盟店規約に違反する、または違反の疑いがある行為はしません。]
+//image[square-bluetooth][Square Reader（海外版）とSquareアプリ（国内版）を接続した様子][scale=0.45]
+//footnote[legal][Square Reader（米国版）は技適を通っていないため、国内で利用すると電波法に違反する恐れがあります。または違反の恐れがある行為はしません。]
+//footnote[legal-merchant][加盟店規約により国外での決済は禁止されています。当サークルでは加盟店規約に違反する、または違反の恐れがある行為はしません。]
 
-何はともあれ、Square StandとSquare ReaderがUSBで接続できたのでヨシ！と思ったのですが、そうもいきません。
+何はともあれ、これでSquare StandとSquare ReaderがUSBで接続できたのでヨシ！と思ったのですが、そうもいきません。
 Square Standに同梱される専用USBハブが曲者で、どうやらSquareアプリを使っているときにしか有効にならないようです。
 ここにバーコードリーダーを接続しても、Squareアプリからしか使えないじゃないですか……しかもSquareアプリは先ほど用意した「DENSO AT20Q-SM」に対応しておらず、それでは意味がなくなります。
+
 ということで、Square Standの利用は保留です。
-今後、Square Reader（USB接続）とバーコードリーダーを同時に利用できるような方法を探っていきたいとおもいます。
+今後、Square Reader（USB接続）とバーコードリーダーを同時に利用できるような方法を探っていきたいと思います。
 
 
 === アプリケーション周り
@@ -244,10 +245,12 @@ Coineyが使っているMiura Systemsの端末は、たびたびセキュリテ�
 
 
 == おわりに
-まだアプリケーションの話になりますが、今後は取り置きや事前決済@<fn>{jizen}にも対応したいですね。
+本稿では、当サークルにおける電子決済の導入と運用について述べました。
+
+まだアプリケーションの話になりますが、今後は取り置きや事前決済@<fn>{jizen}にも対応したいです。
 iOSのWalletアプリに登録できるPassを発行する、そのPassにはQRコードか何かを書いておいてバーコードリーダーで読んでユーザを識別ってだけならさほど手間はかからないのでは？
 でもどうせなら、Miura SystemsのSDKやら何やらを使って非接触で読み取れるようにしたいところです。
-//footnote[jizen][ただし、規約に触れそうなので慎重に対応します。]
+//footnote[jizen][ただし、規約に触れる可能性もあるので、確認のうえ慎重に対応します。]
 
 実現できるかは分かりませんでした！
 いかがでしたか？
