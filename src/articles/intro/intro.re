@@ -9,8 +9,8 @@ SIGCOWWのitezaPです。
 各筆者が、もう一度見てもらいたい、加筆（書き直し）したい、と思った過去の記事をいい感じにまとめてお届けします。
 厳正なる審査の結果残念ながら今回の総集編に掲載されなかった記事たちは、全て電子書籍としてSIGCOWWのホームページ@<fn>{SIGCOWW}やBOOTH@<fn>{BOOTH}にて販売しています。
 特にバックナンバーには、今回の総集編では掲載していないメンバーの記事も掲載されていますので、何卒よろしくお願いします。
-//footnote[SIGCOWW][https://sigcoww.org/book/]
-//footnote[BOOTH][https://sigcoww.booth.pm/]
+//footnote[SIGCOWW][@<href>{https://sigcoww.org/book/}]
+//footnote[BOOTH][@<href>{https://sigcoww.booth.pm/}]
 
 さて、ここで各著者の書いた記事を簡単に紹介したいと思います。
 第1記事はSython氏で、COSMIC L0 Vol.3、Vol.5、Vol.6の記事を基にした総集編となっています。
