@@ -1,0 +1,29 @@
+seqdiag {
+	activation = none;
+	default_fontsize = 20;
+	span_height = 20;
+	edge_length = 500;
+
+	Host [label="アプリ"];
+	Device [label="バリスタアイ"];
+
+    Host -> Device [label="Read 0x0028"];
+    Device -> Host [label="ERROR", note="認証要求"];
+
+    Host -> Device [label="Read 0x0030"];
+    Device -> Host [label="Encrypted Token", note="ワンタイム"];
+
+    Host -> Device [label="Write 0x0030 [暗号文]"];
+    === 過去にペアリングしている（暗号文が正しい）ならばここで完了 ===
+
+    Host -> Device [label="Write 0x0030 0x57452053544152542050414952494E47", note="「WE START PAIRING」のバイト表現"];
+    Host -> Device [label="Read 0x0030", note="ボタンが光るので押す"];
+    Device -> Host [label="Encrypted Machine Password"];
+
+    Host -> Device [label="Read 0x0030"];
+    Device -> Host [label="Encryption Key"];
+    Host -> Device [label="Write 0x0030 [暗号文]"];
+    === lightpairing完了 ===
+
+    Host -> Device [label="Write 0x002E [ボタンIDと乱数の暗号文]"];
+}
