@@ -17,8 +17,8 @@ if __FILE__ == $0
       break if ret.nil?
     end
 
-    txt.gsub!(/^(\S+?)(「.*?」)$/, '\story{\1}{\2}')
-    txt.gsub!(/^(\S+?)(（.*?）)$/, '\story{\1}{\2}')
+    txt.gsub!(/^(\S+?)(「.*?」)\\\\$/, '\story{\1}{\2}')
+    txt.gsub!(/^(―― \S+ ――)\\\\$/, '\1')
     File.write(file, txt)
   end
 end
