@@ -1,0 +1,26 @@
+seqdiag {
+	activation = none;
+	default_fontsize = 20;
+	span_height = 20;
+	edge_length = 260;
+
+	Master [label="メイン基板"];
+	Slave [label="操作パネル (Addr:0x58)", width=250];
+	IRQ;
+
+	Slave -> IRQ [label="つかむ（LOWに落とす）"];
+	Master -> Slave [label="Write 0x00"];
+	Master -> Slave [label="Read"];
+	Master <- Slave [label="ボタンID"];
+	Slave <- IRQ [label="離す（HIGHになる）"];
+
+	Slave -> IRQ [label="つかむ"];
+	Master -> Slave [label="Write 0x00"];
+	Master -> Slave [label="Read"];
+	Master <- Slave [label="0x00"];
+	Slave <- IRQ [label="離す"];
+
+	Master -> Slave [label="Write [メモリアドレス1] [値1]"];
+	Master -> Slave [label="Write [メモリアドレス2] [値2]"];
+	Master -> Slave [label="Write [メモリアドレスn] [値n]"];
+}
