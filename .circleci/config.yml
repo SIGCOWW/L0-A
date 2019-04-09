@@ -6,16 +6,17 @@ jobs:
       - image: lrks/desk:jewelpet
     steps:
       - checkout
-      - run: build.rb --pdf4print --pdf4publish --epub --workdir=/work/src --margin=3mm --verbose --container=infinitestratos
+      #- run: build.rb --pdf4print --pdf4publish --epub --workdir=/work/src --margin=3mm --verbose --container=infinitestratos
+      - run: build.rb --pdf4print --skip-proof --workdir=/work/src --margin=3mm --verbose --container=infinitestratos
       - store_artifacts:
           path: /work/src/working_temporary_directory/original.pdf
       - store_artifacts:
           path: /work/src/working_temporary_directory/honbun.pdf
-      - store_artifacts:
-          path: /work/src/working_temporary_directory/publish-raw.pdf
-      - store_artifacts:
-          path: /work/src/working_temporary_directory/publish-ebook.pdf
-      - store_artifacts:
-          path: /work/src/working_temporary_directory/publish.epub
-      - store_artifacts:
-          path: /work/src/working_temporary_directory/book-text
+      #- store_artifacts:
+      #    path: /work/src/working_temporary_directory/publish-raw.pdf
+      #- store_artifacts:
+      #    path: /work/src/working_temporary_directory/publish-ebook.pdf
+      #- store_artifacts:
+      #    path: /work/src/working_temporary_directory/publish.epub
+      #- store_artifacts:
+      #    path: /work/src/working_temporary_directory/book-text
