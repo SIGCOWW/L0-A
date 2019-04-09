@@ -1,7 +1,7 @@
 = ワイ「ち、チノちゃん！バ○スタのHackしないで！」
 @<author>{街の国際ウィザード・バリスター, lrks;twitter:__lrks__}
-//profile[lrks;twitter:__lrks__][]{
-締切まであと2時間30分、表紙はまだ作っていない。校正もしていない。
+//profile[lrks;twitter:__lrks__][いろいろ書いた]{
+締切まであと40分。
 //}
 
 //lead{

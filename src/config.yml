@@ -11,7 +11,7 @@ msg: "https://sigcoww.org/ で既刊紹介中"         # メッセージ 省略�
 container_version: "jewelpet"                    # desk のバージョン 省略可
 layout_hash: "6fd9409306cd76f85ff807b2dad53af5"  # layout.tex.erb のMD5ハッシュ 省略可
 sty_hash: "68f40bfda6ec9ddc19ff9b4331f83656"     # sigcoww.sty のMD5ハッシュ 省略可
-titlelatex: '\sigcowwtitle'                      # 扉ページ 省略可
+#titlelatex: '\sigcowwtitle'                      # 扉ページ 省略可
 download: "https://sigcoww.org/book/l0-sp1/?key=%s"  # ダウンロードコード用文字列 省略可
 
 
