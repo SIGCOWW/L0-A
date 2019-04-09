@@ -1,2 +1,9 @@
+PREDEF:
+  - intro.re
+
 CHAPS:
+  - vc.re
+  - itezap.re
+  - chino.re
+  - pay2.re
   - pricer.re

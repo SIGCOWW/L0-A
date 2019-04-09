@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="107.00377mm"
+   height="48.650146mm"
+   viewBox="0 0 107.00377 48.650146"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="software.svg">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker2174"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleInM">
+      <path
+         transform="scale(-0.4)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path2172"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker2018"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path2016"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(-0.4)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1802"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="TriangleInM"
+       inkscape:collect="always">
+      <path
+         transform="scale(-0.4)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path1800"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleInL"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1091"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(-0.8)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path964"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.60163681"
+     inkscape:cx="277.80877"
+     inkscape:cy="8.0648321"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="レイヤー 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-207.4479,-100.02656)">
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.40000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect1722"
+       width="48.250145"
+       height="64.755112"
+       x="100.22656"
+       y="-272.40302"
+       transform="rotate(90)" />
+    <g
+       id="g1786"
+       transform="translate(-2.5340673,-18.132543)">
+      <rect
+         y="156.76347"
+         x="255.5831"
+         height="7.6122413"
+         width="17.044024"
+         id="rect1756"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.40000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text1760"
+         y="161.97438"
+         x="260.39252"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;line-height:1.25;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.09290779"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0.09290779"
+           y="161.97438"
+           x="260.39252"
+           id="tspan1758"
+           sodipodi:role="line">現金</tspan></text>
+    </g>
+    <g
+       id="g1771"
+       transform="translate(123.09624,-5.4459908)">
+      <rect
+         y="113.52617"
+         x="129.95279"
+         height="7.6122413"
+         width="17.044024"
+         id="rect1744"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.40000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         id="text1748"
+         y="118.371"
+         x="132.30132"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;line-height:1.25;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.09290779"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0.09290779"
+           y="118.371"
+           x="132.30132"
+           id="tspan1746"
+           sodipodi:role="line">Coiney</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;line-height:1.25;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.09290779"
+       x="278.26926"
+       y="113.01978"
+       id="text1796"><tspan
+         sodipodi:role="line"
+         id="tspan1794"
+         x="278.26926"
+         y="113.01978"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0.09290779">Coineyアプリを起動</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path1798"
+       d="m 275.75327,111.8863 c -6.48664,0 -6.48664,0 -6.48664,0"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker1802)" />
+    <g
+       id="g1776"
+       transform="translate(-2.5340663,-17.914185)">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.40000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1733"
+         width="17.044024"
+         height="7.6122413"
+         x="255.5831"
+         y="136.17795" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;line-height:1.25;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.09290779"
+         x="257.79459"
+         y="140.96332"
+         id="text1737"><tspan
+           sodipodi:role="line"
+           id="tspan1735"
+           x="257.79459"
+           y="140.96332"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0.09290779">Square</tspan></text>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2018)"
+       d="m 275.75327,122.06988 c -6.48664,0 -6.48664,0 -6.48664,0"
+       id="path2014"
+       inkscape:connector-curvature="0" />
+    <text
+       id="text2340"
+       y="123.21638"
+       x="278.31384"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;line-height:1.25;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.09290779"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0.09290779"
+         y="123.21638"
+         x="278.31384"
+         id="tspan2338"
+         sodipodi:role="line">Squareアプリを起動</tspan></text>
+    <g
+       id="g1781"
+       transform="translate(-2.5340663,-18.039088)">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.40000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1750"
+         width="17.044024"
+         height="7.6122413"
+         x="255.5831"
+         y="146.48643" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;line-height:1.25;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.09290779"
+         x="258.98029"
+         y="151.73448"
+         id="text1754"><tspan
+           sodipodi:role="line"
+           id="tspan1752"
+           x="258.98029"
+           y="151.73448"
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0.09290779">Univa</tspan></text>
+    </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path2170"
+       d="m 275.75327,132.25346 c -6.48664,0 -6.48664,0 -6.48664,0"
+       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker2174)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;line-height:1.25;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.09290779"
+       x="278.13547"
+       y="133.33121"
+       id="text2344"><tspan
+         sodipodi:role="line"
+         id="tspan2342"
+         x="278.13547"
+         y="133.33121"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0.09290779">UnivaPayのAPIを叩く</tspan></text>
+    <text
+       id="text2348"
+       y="105.37808"
+       x="252.70781"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;line-height:1.25;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.09290779"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0.09290779"
+         y="105.37808"
+         x="252.70781"
+         id="tspan2346"
+         sodipodi:role="line">決済方法</tspan></text>
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.13372208;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2451"
+       width="0.40000001"
+       height="48.416172"
+       x="250.57497"
+       y="100.08742" />
+    <text
+       id="text2473"
+       y="105.37065"
+       x="209.68388"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;line-height:1.25;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.09290779"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0.09290779"
+         y="105.37065"
+         x="209.68388"
+         id="tspan2471"
+         sodipodi:role="line">頒布物</tspan></text>
+    <rect
+       y="107.66927"
+       x="210.21942"
+       height="18.994883"
+       width="37.823231"
+       id="rect2475"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.39829072;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       id="text2479"
+       y="112.28326"
+       x="211.52074"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;line-height:1.25;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.09290779"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0.09290779"
+         y="112.28326"
+         x="211.52074"
+         id="tspan2477"
+         sodipodi:role="line">L0 vol.1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;line-height:1.25;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.09290779"
+       x="211.52074"
+       y="118.48376"
+       id="text2488"><tspan
+         sodipodi:role="line"
+         id="tspan2486"
+         x="211.52074"
+         y="118.48376"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0.09290779">L0 vol.2</tspan></text>
+    <text
+       id="text2492"
+       y="124.68423"
+       x="211.52074"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;line-height:1.25;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.09290779"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0.09290779"
+         y="124.68423"
+         x="211.52074"
+         id="tspan2490"
+         sodipodi:role="line">L0 vol.3</tspan></text>
+    <rect
+       y="210.43791"
+       x="-114.12651"
+       height="37.754631"
+       width="0.40002248"
+       id="rect2469"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.11808785;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       transform="rotate(-90)" />
+    <rect
+       transform="rotate(-90)"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.11825819;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2494"
+       width="0.40002248"
+       height="37.863628"
+       x="-120.32736"
+       y="210.12962" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;line-height:1.25;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.09290779"
+       x="241.68445"
+       y="112.33155"
+       id="text2498"><tspan
+         sodipodi:role="line"
+         id="tspan2496"
+         x="241.68445"
+         y="112.33155"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0.09290779">x 1</tspan></text>
+    <text
+       id="text2502"
+       y="118.1916"
+       x="241.68445"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;line-height:1.25;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.09290779"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0.09290779"
+         y="118.1916"
+         x="241.68445"
+         id="tspan2500"
+         sodipodi:role="line">x 0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;line-height:1.25;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.09290779"
+       x="241.68445"
+       y="124.50957"
+       id="text2506"><tspan
+         sodipodi:role="line"
+         id="tspan2504"
+         x="241.68445"
+         y="124.50957"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0.09290779">x 9</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;line-height:1.25;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.09290779"
+       x="209.68388"
+       y="134.8354"
+       id="text2510"><tspan
+         sodipodi:role="line"
+         id="tspan2508"
+         x="209.68388"
+         y="134.8354"
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0.09290779">合計金額</tspan></text>
+    <text
+       id="text2514"
+       y="139.78285"
+       x="209.68388"
+       style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;line-height:1.25;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.09290779"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:3.71631193px;font-family:'Noto Sans CJK JP';-inkscape-font-specification:'Noto Sans CJK JP, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;stroke-width:0.09290779"
+         y="139.78285"
+         x="209.68388"
+         id="tspan2512"
+         sodipodi:role="line">12,345 円</tspan></text>
+  </g>
+</svg>
