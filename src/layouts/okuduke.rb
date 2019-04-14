@@ -8,8 +8,8 @@ module ReVIEW
       t.localtime("+09:00")
 
       rows = []
-      rows << ['発行日', '', '平成31年4月14日　第1版 第1刷']
-      rows << ['',       '', '令和元年5月3日　第2版 第1刷']
+      rows << ['発行日', '平成31年4月14日　第1版 第1刷']
+      rows << ['',       '令和元年5月3日　第2版 第1刷']
       #if not(@config.key?('history')) || (@config.key?('history') && @config['history'] == 1 && @config['history'][0].length <= 1)
       #  rows << ['発行日', Date.parse(@config["date"]).strftime("%Y年%-m月%-d日")]
       #else
