@@ -265,7 +265,7 @@ https://www.youtube.com/watch?v=n9i0i3E5__A
 
 //noindent
 では、
-俺「皆さんありがとうございました！」
+俺「皆さんありがとうございました！」@<br>{}
 //noindent
 終
 
