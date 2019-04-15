@@ -9,7 +9,9 @@ module ReVIEW
 
       rows = []
       rows << ['発行日', '平成31年4月14日　第1版 第1刷']
-      rows << ['',       '令和元年5月3日　第2版 第1刷']
+      rows << ['', nil,  '\newlength{\yearsw}\settowidth{\yearsw}{平成31年}%
+                          \newlength{\dayw}\settowidth{\dayw}{4月14日}%
+                            \hbox to \yearsw{令{\hfil}和{\hfil}元{\hfil}年}\hbox to \dayw{5月{\hfil}3日}　第2版 第1刷']
       #if not(@config.key?('history')) || (@config.key?('history') && @config['history'] == 1 && @config['history'][0].length <= 1)
       #  rows << ['発行日', Date.parse(@config["date"]).strftime("%Y年%-m月%-d日")]
       #else
